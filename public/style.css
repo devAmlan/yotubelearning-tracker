@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    background-color:#B980F0;
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    color:#3E215D;
+    text-align: center;
+}
+.pagebtn
+{
+    width:120px;
+    height:40px;
+    text-align: center;
+    color:mintcream;
+    border:none;
+    background-color:mediumvioletred;
+    border-radius:10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.btnbox
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#urlinputform
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#videoname{
+  width:300px;
+  height:35px;
+  border:none;
+  border-radius:5px;
+  outline:none;
+  font-size:15px;
+  font-family:inherit;
+  font-weight:bolder;
+  color:#055052;
+}
+#urlinputform button{
+    width:100px;
+    height:38px;
+    font-family:inherit;
+    font-weight:bold;
+    color:#fafafa;
+    background-color:#3E215D;
+    border:none;
+    border-radius:10px;
+    margin:10px;
+    cursor: pointer;
+}
+#trybtn{
+    width:100px;
+    height:35px;
+    border:none;
+    border-radius:6px;
+    background-color:#bf0603;
+    color:#fafafa;
+    font-family: inherit;
+    font-weight:bold;
+    cursor: pointer;
+}
+#back{
+    width:110px;
+    height:35px;
+    border:none;
+    border-radius:6px;
+    background-color:#240046;
+    color:#fafafa;
+    font-family: inherit;
+    font-weight:bold;
+    cursor: pointer; 
+}
+.errormsg{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+}
+.errormsg h3{
+    color:#240046;
+}
+#resultmsg{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+}
